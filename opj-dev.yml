@@ -4,3 +4,9 @@ eureka:
       defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/
 env: 
   11111
+spring: 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
